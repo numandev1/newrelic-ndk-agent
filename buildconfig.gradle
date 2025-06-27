@@ -17,7 +17,7 @@ buildscript {
 
         newrelic.deps = [
                 ndk   : "com.newrelic.agent.android:agent-ndk:" + newrelic.version,
-                agent : "com.newrelic.agent.android:android-agent:" + newrelic.agent.version,
+                agent : "com.github.numandev1:newrelic-android-agent:1f81039b38",
                 plugin: "com.newrelic.agent.android:agent-gradle-plugin:" + newrelic.agent.version
         ]
 
