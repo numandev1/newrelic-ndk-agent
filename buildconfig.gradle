@@ -60,6 +60,7 @@ buildscript {
         maven { url newrelic.agent.snapshotUri }
         mavenLocal()
         mavenCentral()
+        maven { url 'https://jitpack.io' }
     }
 }
 
@@ -73,6 +74,7 @@ subprojects {
             mavenLocal()
             mavenCentral()
             google()
+            maven { url 'https://jitpack.io' }
         }
 
         dependencies {
@@ -86,5 +88,6 @@ subprojects {
         mavenLocal()
         mavenCentral()
         google()
+        maven { url 'https://jitpack.io' }
     }
 }
